@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Interfaz Funcional</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>¡Hola, mundo!</h1>
+  <p>Esta es mi primera interfaz funcional desde GitHub.</p>
+  <button onclick="mostrarAlerta()">Haz clic aquí</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+function mostrarAlerta() {
+  alert("¡Bien hecho! Estás usando una interfaz funcional.");
+}
